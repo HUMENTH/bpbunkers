@@ -1,0 +1,149 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{email}",
+ "creation": "2025-01-12 19:44:43.898229",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "email",
+  "phone",
+  "privileges",
+  "city",
+  "login",
+  "column_break_gbag",
+  "last_name",
+  "user_full_name",
+  "pictogram",
+  "image_djqa",
+  "state",
+  "password",
+  "section_break_gzww",
+  "address",
+  "signature"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "privileges",
+   "fieldtype": "Select",
+   "label": "Privileges"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Link",
+   "label": "City",
+   "options": "Cities"
+  },
+  {
+   "fieldname": "login",
+   "fieldtype": "Data",
+   "label": "Login"
+  },
+  {
+   "fieldname": "column_break_gbag",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name\u00a0"
+  },
+  {
+   "fieldname": "pictogram",
+   "fieldtype": "Attach Image",
+   "label": "Pictogram"
+  },
+  {
+   "fieldname": "image_djqa",
+   "fieldtype": "Image",
+   "max_height": "200px",
+   "options": "pictogram",
+   "width": "200px"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Select",
+   "label": "State"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "label": "Password"
+  },
+  {
+   "fieldname": "section_break_gzww",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Text Editor",
+   "label": "Address"
+  },
+  {
+   "fieldname": "signature",
+   "fieldtype": "Text Editor",
+   "label": "Signature"
+  },
+  {
+   "fieldname": "user_full_name",
+   "fieldtype": "Read Only",
+   "label": "Full Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-16 16:19:38.878869",
+ "modified_by": "Administrator",
+ "module": "BP Bunkers",
+ "name": "BP Users",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "FCRM User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "first_name"
+}

@@ -1,0 +1,176 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2025-01-12 22:53:29.879022",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "pic",
+  "port",
+  "customer",
+  "seller",
+  "ship",
+  "column_break_nqab",
+  "invoice_date",
+  "del_date",
+  "due_date",
+  "original_deal",
+  "original_enquiry",
+  "section_break_wmfh",
+  "products_reference",
+  "section_break_jlee",
+  "total_buying_cost",
+  "column_break_vrdp",
+  "total_selling_cost",
+  "column_break_ruqu",
+  "profit",
+  "section_break_okai",
+  "payment_terms"
+ ],
+ "fields": [
+  {
+   "fieldname": "pic",
+   "fieldtype": "Link",
+   "label": "PIC",
+   "options": "BP Users"
+  },
+  {
+   "fieldname": "port",
+   "fieldtype": "Link",
+   "label": "Port",
+   "options": "Ports"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "BP Customer"
+  },
+  {
+   "fieldname": "seller",
+   "fieldtype": "Link",
+   "label": "Seller",
+   "options": "Seller"
+  },
+  {
+   "fieldname": "ship",
+   "fieldtype": "Date",
+   "label": "Ship"
+  },
+  {
+   "fieldname": "column_break_nqab",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "del_date",
+   "fieldtype": "Date",
+   "label": "Del. Date"
+  },
+  {
+   "fieldname": "due_date",
+   "fieldtype": "Date",
+   "label": "Due Date"
+  },
+  {
+   "fieldname": "original_deal",
+   "fieldtype": "Link",
+   "label": "Original Deal",
+   "options": "Deals"
+  },
+  {
+   "fieldname": "original_enquiry",
+   "fieldtype": "Link",
+   "label": "Original Enquiry",
+   "options": "Enquiry"
+  },
+  {
+   "fieldname": "section_break_wmfh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "products_reference",
+   "fieldtype": "Table",
+   "label": "Products Reference\u00a0",
+   "options": "Products"
+  },
+  {
+   "fieldname": "payment_terms",
+   "fieldtype": "Long Text",
+   "label": "Payment Terms"
+  },
+  {
+   "fieldname": "section_break_jlee",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_buying_cost",
+   "fieldtype": "Currency",
+   "label": "Total Buying Cost"
+  },
+  {
+   "fieldname": "column_break_vrdp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_selling_cost",
+   "fieldtype": "Currency",
+   "label": "Total Selling Cost"
+  },
+  {
+   "fieldname": "column_break_ruqu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "profit",
+   "fieldtype": "Currency",
+   "label": "Profit"
+  },
+  {
+   "fieldname": "section_break_okai",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-16 17:19:34.340637",
+ "modified_by": "Administrator",
+ "module": "BP Bunkers",
+ "name": "Invoices",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "FCRM User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "customer"
+}

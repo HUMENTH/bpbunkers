@@ -1,0 +1,136 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{name1}",
+ "creation": "2025-01-12 19:43:44.053271",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "city",
+  "postal_code",
+  "address",
+  "column_break_ksqw",
+  "email",
+  "phone",
+  "website",
+  "payment_terms",
+  "credit_line",
+  "currency_of_credit_line",
+  "section_break_iqow",
+  "bill_to_details",
+  "comments"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Link",
+   "label": "City",
+   "options": "Cities"
+  },
+  {
+   "fieldname": "postal_code",
+   "fieldtype": "Int",
+   "label": "Postal Code"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "column_break_ksqw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website"
+  },
+  {
+   "fieldname": "payment_terms",
+   "fieldtype": "Data",
+   "label": "Payment terms"
+  },
+  {
+   "fieldname": "credit_line",
+   "fieldtype": "Data",
+   "label": "Credit line"
+  },
+  {
+   "fieldname": "currency_of_credit_line",
+   "fieldtype": "Link",
+   "label": "Currency of credit line",
+   "options": "BP Currency"
+  },
+  {
+   "fieldname": "section_break_iqow",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "bill_to_details",
+   "fieldtype": "Text Editor",
+   "label": "Bill to details"
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "HTML Editor",
+   "label": "Comments\u00a0"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-16 15:40:23.375221",
+ "modified_by": "Administrator",
+ "module": "BP Bunkers",
+ "name": "Agents",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "FCRM User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
