@@ -17,7 +17,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-16 16:35:59.737128",
+ "modified": "2025-01-28 12:37:56.051160",
  "modified_by": "Administrator",
  "module": "BP Bunkers",
  "name": "Seller",
@@ -33,6 +33,19 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "FCRM User",
+   "select": 1,
    "share": 1,
    "write": 1
   }
