@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "allow_guest_to_view": 1,
+ "allow_rename": 1,
+ "autoname": "field:title",
+ "creation": "2025-02-07 20:00:30.970469",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "title_section",
+  "title",
+  "first_name",
+  "attach_image",
+  "profile_picture",
+  "column_break_xyih",
+  "last_name",
+  "route",
+  "published"
+ ],
+ "fields": [
+  {
+   "fieldname": "title_section",
+   "fieldtype": "Section Break",
+   "label": "Title"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title",
+   "unique": 1
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
+  },
+  {
+   "default": "0",
+   "fieldname": "published",
+   "fieldtype": "Check",
+   "label": "Published"
+  },
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "column_break_xyih",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "attach_image",
+   "fieldtype": "Attach Image",
+   "label": "Attach Image"
+  },
+  {
+   "fieldname": "profile_picture",
+   "fieldtype": "Image",
+   "label": "Profile Picture",
+   "options": "attach_image"
+  }
+ ],
+ "has_web_view": 1,
+ "index_web_pages_for_search": 1,
+ "is_published_field": "published",
+ "links": [],
+ "modified": "2025-02-07 20:12:06.575295",
+ "modified_by": "Administrator",
+ "module": "BP Bunkers",
+ "name": "Web",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "route": "web",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
